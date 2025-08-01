@@ -2,9 +2,9 @@
 
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+
 import { FaUserGraduate, FaClock, FaCheckCircle, FaPlus } from 'react-icons/fa';
 
-// Some colorful Bootstrap card variants
 const cardColors = ['primary', 'success', 'danger', 'warning', 'info', 'secondary'];
 
 function CourseList() {
